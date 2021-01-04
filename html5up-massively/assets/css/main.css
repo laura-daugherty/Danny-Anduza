@@ -3515,7 +3515,8 @@ input, select, textarea {
 		-webkit-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
-		height: 20rem;
+		height: fit-content;
+    padding-top: 8rem;
 		padding-bottom: 8rem;
 		position: relative;
 		text-align: center;
@@ -3528,12 +3529,11 @@ input, select, textarea {
 
 		#header a {
 			color: #ffffff;
-			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #ffffff !important;
 			}
 
 		#header strong, #header b {
@@ -3615,8 +3615,8 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.175);
-		height: 4rem;
+		background: #d2af92;
+		height: fit-content;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
 		overflow: hidden;
@@ -3628,33 +3628,33 @@ input, select, textarea {
 	}
 
 		#nav ul.divided li {
-			border-top-color: #ffffff;
+			border-top-color: #4d0000;
 		}
 
 		#nav ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #4d0000;
 		}
 
 		#nav ul.icons.alt li .icon:before {
-			box-shadow: inset 0 0 0 2px #ffffff;
+			box-shadow: inset 0 0 0 2px #4d0000;
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #4d0000;
 		}
 
 		#nav input, #nav select, #nav textarea {
-			color: #ffffff;
+			color: #4d0000;
 		}
 
 		#nav a {
-			color: #ffffff;
+			color: #4d0000;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
 			#nav a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #4d0000 !important;
 			}
 
 		#nav strong, #nav b {
@@ -3730,7 +3730,7 @@ input, select, textarea {
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #18bfef !important;
+							color: #ffffff !important;
 						}
 
 		#nav ul.icons {
@@ -3743,6 +3743,10 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			margin-bottom: 0;
+		}
+
+		.active {
+			text-decoration: underline;
 		}
 
 		@media screen and (max-width: 980px) {
