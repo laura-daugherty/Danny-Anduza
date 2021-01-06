@@ -3783,6 +3783,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
+			text-align:center;
 			padding: 8rem 8rem 6rem 8rem ;
 		}
 
@@ -4691,3 +4692,4 @@ input, select, textarea {
 		}
 
 	}
+
